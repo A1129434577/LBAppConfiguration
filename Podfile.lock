@@ -1,0 +1,106 @@
+PODS:
+  - IQKeyboardManager (6.5.11)
+  - JCore (4.1.0)
+  - JPush (4.9.0):
+    - JCore (>= 2.0.0)
+  - LBCommonComponents (1.1.4):
+    - LBCommonComponents/Base (= 1.1.4)
+    - LBCommonComponents/Category (= 1.1.4)
+    - LBCommonComponents/Macros (= 1.1.4)
+  - LBCommonComponents/Base (1.1.4):
+    - LBCommonComponents/Base/ViewControllers (= 1.1.4)
+    - LBCommonComponents/Base/Views (= 1.1.4)
+  - LBCommonComponents/Base/ViewControllers (1.1.4)
+  - LBCommonComponents/Base/Views (1.1.4)
+  - LBCommonComponents/Category (1.1.4):
+    - LBCommonComponents/Category/LBNavigationBarAppearance (= 1.1.4)
+    - "LBCommonComponents/Category/NSArray+Safe (= 1.1.4)"
+    - "LBCommonComponents/Category/NSDate+ToString (= 1.1.4)"
+    - "LBCommonComponents/Category/NSDictionary+Safe (= 1.1.4)"
+    - "LBCommonComponents/Category/NSNull+Safe (= 1.1.4)"
+    - "LBCommonComponents/Category/NSObject+MethodSwizzling (= 1.1.4)"
+    - "LBCommonComponents/Category/NSObject+TopViewController (= 1.1.4)"
+    - "LBCommonComponents/Category/NSObject+TypeSafe (= 1.1.4)"
+    - "LBCommonComponents/Category/NSString+ToDate (= 1.1.4)"
+    - "LBCommonComponents/Category/UIButton+Action (= 1.1.4)"
+    - "LBCommonComponents/Category/UIControl+EventInterval (= 1.1.4)"
+    - "LBCommonComponents/Category/UIImage+Color (= 1.1.4)"
+    - "LBCommonComponents/Category/UIImage+DownSampling (= 1.1.4)"
+    - "LBCommonComponents/Category/UIView+Copy (= 1.1.4)"
+    - "LBCommonComponents/Category/UIView+Geometry (= 1.1.4)"
+  - LBCommonComponents/Category/LBNavigationBarAppearance (1.1.4):
+    - "LBCommonComponents/Category/NSObject+MethodSwizzling"
+  - "LBCommonComponents/Category/NSArray+Safe (1.1.4)":
+    - "LBCommonComponents/Category/NSObject+MethodSwizzling"
+  - "LBCommonComponents/Category/NSDate+ToString (1.1.4)"
+  - "LBCommonComponents/Category/NSDictionary+Safe (1.1.4)":
+    - "LBCommonComponents/Category/NSObject+MethodSwizzling"
+  - "LBCommonComponents/Category/NSNull+Safe (1.1.4)"
+  - "LBCommonComponents/Category/NSObject+MethodSwizzling (1.1.4)"
+  - "LBCommonComponents/Category/NSObject+TopViewController (1.1.4)"
+  - "LBCommonComponents/Category/NSObject+TypeSafe (1.1.4)"
+  - "LBCommonComponents/Category/NSString+ToDate (1.1.4)"
+  - "LBCommonComponents/Category/UIButton+Action (1.1.4)"
+  - "LBCommonComponents/Category/UIControl+EventInterval (1.1.4)"
+  - "LBCommonComponents/Category/UIImage+Color (1.1.4)"
+  - "LBCommonComponents/Category/UIImage+DownSampling (1.1.4)"
+  - "LBCommonComponents/Category/UIView+Copy (1.1.4)"
+  - "LBCommonComponents/Category/UIView+Geometry (1.1.4)"
+  - LBCommonComponents/Macros (1.1.4)
+  - LBUserInfo (1.0.1):
+    - LBUserInfo/LBUserLocation (= 1.0.1)
+    - LBUserInfo/LBUserModel (= 1.0.1)
+    - LBUserInfo/LBUserSystemAuth (= 1.0.1)
+    - LBUserInfo/LBUserTempOperateInfo (= 1.0.1)
+  - LBUserInfo/LBUserLocation (1.0.1):
+    - LBUserInfo/LBUserModel
+  - LBUserInfo/LBUserModel (1.0.1)
+  - LBUserInfo/LBUserSystemAuth (1.0.1):
+    - LBUserInfo/LBUserModel
+  - LBUserInfo/LBUserTempOperateInfo (1.0.1):
+    - LBUserInfo/LBUserModel
+  - libwebp (1.2.4):
+    - libwebp/demux (= 1.2.4)
+    - libwebp/mux (= 1.2.4)
+    - libwebp/webp (= 1.2.4)
+  - libwebp/demux (1.2.4):
+    - libwebp/webp
+  - libwebp/mux (1.2.4):
+    - libwebp/demux
+  - libwebp/webp (1.2.4)
+  - SDWebImage/Core (5.15.4)
+  - SDWebImageWebPCoder (0.10.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.15)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - JPush
+  - LBCommonComponents
+  - LBUserInfo
+  - SDWebImageWebPCoder
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - LBCommonComponents
+    - LBUserInfo
+    - libwebp
+    - SDWebImage
+    - SDWebImageWebPCoder
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  JCore: ea26a5dde38ebf6e4e85b772d4ecce8e0e95fb55
+  JPush: 3d67f9844abca401a2beff8381dac015e09253a7
+  LBCommonComponents: 134fbdd207b76ffdc116851ea3bc02f762958c95
+  LBUserInfo: f0fb16d039c5b649fc1e3ac68f3a46395a9f76b8
+  libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
+  SDWebImage: 1c39de67663e5eebb2f41324d5d580eeea12dd4c
+  SDWebImageWebPCoder: 4851414d9f8894e328e8b97c93ea4f4f4e4418ae
+
+PODFILE CHECKSUM: 95098f9b79f2267e3d91f218b31e06f8b4db0a04
+
+COCOAPODS: 1.11.3

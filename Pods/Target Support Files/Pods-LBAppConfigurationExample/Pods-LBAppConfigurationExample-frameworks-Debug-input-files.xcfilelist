@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/LBCommonComponents/LBCommonComponents.framework
+${BUILT_PRODUCTS_DIR}/LBUserInfo/LBUserInfo.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework
+${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework

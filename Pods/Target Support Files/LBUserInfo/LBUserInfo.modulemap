@@ -1,0 +1,6 @@
+framework module LBUserInfo {
+  umbrella header "LBUserInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
