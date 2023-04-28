@@ -6,7 +6,7 @@
 //
 
 #import "LBAppConfiguration+JPush.h"
-#import "NSObject+LBMethodSwizzling.h"
+#import <LBCommonComponents/NSObject+LBMethodSwizzling.h>
 
 #ifdef DEBUG
 #define JPUSH_TYPE 0

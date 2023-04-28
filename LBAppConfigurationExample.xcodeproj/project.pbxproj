@@ -25,7 +25,7 @@
 		40ACE20329FA06A00048F532 /* LBAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ACE1F929FA06A00048F532 /* LBAppConfiguration.m */; };
 		40ACE20429FA06A00048F532 /* LBAppConfiguration+Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ACE1FC29FA06A00048F532 /* LBAppConfiguration+Notifications.m */; };
 		40ACE20529FA06A00048F532 /* LBAppConfiguration+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ACE1FE29FA06A00048F532 /* LBAppConfiguration+Login.m */; };
-		A3B5299472BEE2C09EC7C6E7 /* Pods_LBAppConfigurationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA48DCCD2D2C9BA58A1BDCAF /* Pods_LBAppConfigurationExample.framework */; };
+		CDAB153CD7D8B9AE128F9A30 /* Pods_LBAppConfigurationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B19D32657C741E76E369BDB /* Pods_LBAppConfigurationExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B19D32657C741E76E369BDB /* Pods_LBAppConfigurationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBAppConfigurationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		101AC5F7AAD0126813BE463D /* Pods-LBAppConfigurationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBAppConfigurationExample.debug.xcconfig"; path = "Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample.debug.xcconfig"; sourceTree = "<group>"; };
 		3E5F4257CEE91D23F489679F /* Pods-LBAppConfigurationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBAppConfigurationExample.release.xcconfig"; path = "Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample.release.xcconfig"; sourceTree = "<group>"; };
 		40ACE0C129F900CB0048F532 /* LBAppConfigurationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBAppConfigurationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +82,6 @@
 		40ACE1FC29FA06A00048F532 /* LBAppConfiguration+Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LBAppConfiguration+Notifications.m"; sourceTree = "<group>"; };
 		40ACE1FE29FA06A00048F532 /* LBAppConfiguration+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LBAppConfiguration+Login.m"; sourceTree = "<group>"; };
 		40ACE1FF29FA06A00048F532 /* LBAppConfiguration+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LBAppConfiguration+Login.h"; sourceTree = "<group>"; };
-		EA48DCCD2D2C9BA58A1BDCAF /* Pods_LBAppConfigurationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBAppConfigurationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B5299472BEE2C09EC7C6E7 /* Pods_LBAppConfigurationExample.framework in Frameworks */,
+				CDAB153CD7D8B9AE128F9A30 /* Pods_LBAppConfigurationExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +191,10 @@
 		40ACE1ED29FA06A00048F532 /* LBAppConfiguration */ = {
 			isa = PBXGroup;
 			children = (
+				40ACE1F729FA06A00048F532 /* LBAppConfiguration */,
 				40ACE1EE29FA06A00048F532 /* IQKeyboard */,
 				40ACE1F129FA06A00048F532 /* JPush */,
 				40ACE1F429FA06A00048F532 /* SDWebImage */,
-				40ACE1F729FA06A00048F532 /* LBAppConfiguration */,
 				40ACE1FA29FA06A00048F532 /* Notifications */,
 				40ACE1FD29FA06A00048F532 /* Login */,
 			);
@@ -213,8 +213,8 @@
 		40ACE1F129FA06A00048F532 /* JPush */ = {
 			isa = PBXGroup;
 			children = (
-				40ACE1F229FA06A00048F532 /* LBAppConfiguration+JPush.m */,
 				40ACE1F329FA06A00048F532 /* LBAppConfiguration+JPush.h */,
+				40ACE1F229FA06A00048F532 /* LBAppConfiguration+JPush.m */,
 			);
 			path = JPush;
 			sourceTree = "<group>";
@@ -222,8 +222,8 @@
 		40ACE1F429FA06A00048F532 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				40ACE1F529FA06A00048F532 /* LBAppConfiguration+SDWebImage.m */,
 				40ACE1F629FA06A00048F532 /* LBAppConfiguration+SDWebImage.h */,
+				40ACE1F529FA06A00048F532 /* LBAppConfiguration+SDWebImage.m */,
 			);
 			path = SDWebImage;
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 		40ACE1FD29FA06A00048F532 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				40ACE1FE29FA06A00048F532 /* LBAppConfiguration+Login.m */,
 				40ACE1FF29FA06A00048F532 /* LBAppConfiguration+Login.h */,
+				40ACE1FE29FA06A00048F532 /* LBAppConfiguration+Login.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 		FF8B2A232798838FEAF63FFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA48DCCD2D2C9BA58A1BDCAF /* Pods_LBAppConfigurationExample.framework */,
+				0B19D32657C741E76E369BDB /* Pods_LBAppConfigurationExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				40ACE0BD29F900CB0048F532 /* Sources */,
 				40ACE0BE29F900CB0048F532 /* Frameworks */,
 				40ACE0BF29F900CB0048F532 /* Resources */,
-				554D171FC053906940E94EDF /* [CP] Embed Pods Frameworks */,
+				E68FF30E753C34B114B35D95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,23 +400,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		554D171FC053906940E94EDF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		870CD12FD2F2617D51986841 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,6 +420,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68FF30E753C34B114B35D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBAppConfigurationExample/Pods-LBAppConfigurationExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -630,7 +630,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -658,7 +658,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

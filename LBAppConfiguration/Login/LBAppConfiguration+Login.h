@@ -7,7 +7,7 @@
 //
 
 #import "LBAppConfiguration.h"
-#import "LBUserModel.h"
+#import <LBUserInfo/LBUserModel.h>
 #import "LBAppConfiguration+Notifications.h"
 
 NS_ASSUME_NONNULL_BEGIN

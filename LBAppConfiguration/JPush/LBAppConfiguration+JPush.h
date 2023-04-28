@@ -7,7 +7,7 @@
 
 #import "LBAppConfiguration.h"
 #import "LBAppConfiguration+Notifications.h"
-#import "JPUSHService.h"
+#import <JPush/JPUSHService.h>
 
 
 NS_ASSUME_NONNULL_BEGIN

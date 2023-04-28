@@ -8,8 +8,8 @@
 
 #import "LBAppConfiguration+Login.h"
 #import <objc/runtime.h>
-#import "LBUIMacro.h"
-#import "NSObject+LBTopViewController.h"
+#import <LBCommonComponents/LBUIMacro.h>
+#import <LBCommonComponents/NSObject+LBTopViewController.h>
 
 static NSString *LBTouristPatternKey = @"LBTouristPatternKey";
 static NSString *LBModalPresentationStyleKey = @"LBModalPresentationStyleKey";
